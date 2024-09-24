@@ -40,7 +40,9 @@ print(states)
 
 #Again using the specific syntax mentioned in class overwrite the second to last element to be Maine, printing the list 
 states[5] = "Maine"
-print(states)
+for f in states:
+    print("\t", f)
+
 #Insert the state Texas to be the third element in the list, again printing your list
 states.insert(2, "Texas")
 print(states)
